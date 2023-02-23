@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   background: url(../img/burger-pattern-vector-38067848.jpg);
+}
+/*header*/
+
+body .logo {
+    width: 200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    position: sticky;
+    height: 110px;
+}
+
+li {
+    list-style: none;
+
+}
+
+ li{
+    display: inline-block;
+    padding: 0px,20px;
+ padding-left: 30px;
+ }
+
+ .header .nav-links a{
+    font-size: 20px;
+    color: #eceff1;
+    text-decoration: none;    
+    margin-right: 50px;
+    
+}
+button {
+    margin-right: 70px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
