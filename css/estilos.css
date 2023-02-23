@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-h3, ul{
+
+h3,
+ul {
     color: white;
-    
+
 }
+
 body {
     background: url(../img/burger-pattern-vector-38067848.jpg);
     background-repeat: no-repeat;
@@ -23,12 +26,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:black;
+    background-color: black;
     height: 110px;
     position: sticky;
+    width: 100%;
 }
 
-li { 
+li {
     list-style: none;
     display: inline-block;
 
@@ -82,9 +86,13 @@ button {
 }
 
 .slider-frame img {
-    width: 100%;
+    width: 80%;
+    
 }
-
+.slider-frame{
+    width: 80px;
+   padding: 0;
+}
 @keyframes slide {
     0% {
         margin-left: 0;
@@ -122,10 +130,11 @@ button {
 .slider-frame {
     margin-top: 10px;
     margin-bottom: 150px;
-    width: 1300px;
-    margin-right: 100px;
+    width: 1200px;
+    padding-left: 90px;
     height: 600px;
 }
+
 /*Fin del carrusel*/
 
 /*Cards inicio*/
@@ -200,42 +209,52 @@ button {
     background: #2fb4cc;
     color: #fff;
 }
+
 /*fin de las cards*/
 
 @media only screen and (min-width:320px) and (max-width:768px) {
-   *{
-margin: 0;
-padding: 0;
-   } .container-card {
+*{padding: 0;
+margin: 0;}
+    .container-card {
         flex-wrap: wrap;
     }
 
     .card {
         margin: 15px;
-        
+
     }
-  
+
     button {
         display: none;
     }
+
     header {
-        flex-direction: column; 
+        flex-direction: column;
         height: 110px;
-        
-        
-}
-.slider-frame{
-    width: 500px;
-    height: 150%;
-    justify-content: center;
-}
-    .container-card{
+
+
+    }
+
+    .slider-frame {
+        width: 520px;
+        height: 150%;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .container-card {
         margin-top: 0;
     }
+    .logo-container img{
+        display: none;
+    }
+    
 }
-/*footer*/ 
 
-footer{
+/*footer*/
+
+footer {
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -243,10 +262,18 @@ footer{
     padding: .5rem 2rem;
 
 }
+
 .logo-container img {
     margin-bottom: 0;
     width: 200px;
 }
 
-h3{
-    margin-left: 0%; }
+h3 {
+    margin-left: 0%;
+}
+
+/*Nosotros*/
+.main-us .portada-us img {
+
+    width: 100%}
+
