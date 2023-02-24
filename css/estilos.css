@@ -200,7 +200,7 @@ ul{
     }
     .slider-frame ul{
         margin-right: 20px;
-       padding-left: 50px;
+       padding-left: 0px;
        align-items: center;
        justify-content: center;
        
@@ -208,7 +208,8 @@ ul{
     .slider-frame ul img{
         padding-left: 0px;
         width: 100vh;
-        width: 350px;
+        width: 500px;
+        
     }
     .container-card {
         margin-top: 0;
@@ -216,15 +217,15 @@ ul{
     .logo{
         width: 100px;
     }
-}
+
     .logo-container img {
         display: none;
     }
-    
+}
     
 
 
-    }
+    
 
    
 
